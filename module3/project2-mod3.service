@@ -1,0 +1,9 @@
+[Unit]
+Description=Project 2 Module 3 startup script 
+
+[Service]
+Type=simple
+ExecStart=/home/pi/start_up_funcs.sh
+
+[Install]
+WantedBy=multi-user.target
